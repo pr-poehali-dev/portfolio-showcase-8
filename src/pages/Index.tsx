@@ -81,7 +81,7 @@ const Index = () => {
             />
           </div>
           <h1 className="text-5xl font-bold mb-4 font-montserrat">
-            Алексей Программистов
+            Даниил Программистов
           </h1>
           <p className="text-xl mb-6 text-purple-100 max-w-2xl mx-auto">
             Fullstack разработчик с 5+ летним опытом создания современных
