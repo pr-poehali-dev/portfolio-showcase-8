@@ -126,7 +126,7 @@ const Index = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="py-16 px-6">
+      <section id="skills" className="py-16 px-6">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12 font-montserrat text-slate-800">
             Навыки и технологии
@@ -184,7 +184,7 @@ const Index = () => {
       </section>
 
       {/* Experience Section */}
-      <section className="bg-slate-50 py-16 px-6">
+      <section id="experience" className="bg-slate-50 py-16 px-6">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12 font-montserrat text-slate-800">
             Опыт работы
@@ -223,7 +223,7 @@ const Index = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-16 px-6">
+      <section id="portfolio" className="py-16 px-6">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12 font-montserrat text-slate-800">
             Портфолио проектов
@@ -269,7 +269,10 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-16 px-6">
+      <section
+        id="contact"
+        className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-16 px-6"
+      >
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-8 font-montserrat">
             Готов к новым проектам
