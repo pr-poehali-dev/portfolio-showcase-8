@@ -7,6 +7,8 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   const skills = [
@@ -70,8 +72,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+      <Navbar />
+
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-purple-600 via-purple-500 to-indigo-600 text-white py-20">
+      <section
+        id="hero"
+        className="relative bg-gradient-to-r from-purple-600 via-purple-500 to-indigo-600 text-white py-20 pt-32"
+      >
         <div className="container mx-auto px-6 text-center">
           <div className="mb-8">
             <img
@@ -297,6 +304,8 @@ const Index = () => {
           </Button>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
